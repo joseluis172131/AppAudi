@@ -126,7 +126,7 @@
             android:background="#FFFFFF"
             android:ems="10"
             android:textColor="@color/black"
-            android:inputType="numberPassword" />
+            android:inputType="textPassword" />
     </LinearLayout>
 
     <LinearLayout

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000"
+    android:orientation="vertical"
+    tools:context=".AudiCoupe" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/audi_a5coupe"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="4dp" />
+
+            <Button
+                android:id="@+id/audia5coupe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONOCE MÁS SOBRE AUDI A5"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#444444"
+                android:layout_marginBottom="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/audi_s5"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="4dp" />
+
+            <Button
+                android:id="@+id/audis5coupe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONOCE MÁS SOBRE AUDI S5"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#444444"
+                android:layout_marginBottom="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/audi_rs5"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="4dp" />
+
+            <Button
+                android:id="@+id/audirs5coupe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONOCE MÁS SOBRE AUDI RS5"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#444444"
+                android:layout_marginBottom="8dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

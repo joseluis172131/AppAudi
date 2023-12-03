@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000"
+    android:orientation="vertical"
+    tools:context=".AudiSedan" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/audi_a3"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+            <Button
+                android:id="@+id/audia3sedan"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#444444"
+                android:text="CONOCE MÁS SOBRE AUDI A3"
+                android:layout_marginTop="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/audi_s3"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/audis3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#444444"
+                android:text="CONOCE MÁS SOBRE AUDI S3"
+                android:layout_marginTop="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/audi_a8"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/audia8"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#444444"
+                android:text="CONOCE MÁS SOBRE AUDI A8"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

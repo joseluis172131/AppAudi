@@ -25,11 +25,10 @@
             android:id="@+id/correo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:backgroundTint="#FFFCFC"
             android:textColorHint="@color/black"
             android:ems="10"
-            android:hint="Ingrese su correo electronico"
+            android:hint="Ingrese su correo electrónico"
             android:inputType="textEmailAddress"
             android:textColor="@color/black" />
 
@@ -67,10 +66,9 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editTextTextPassword"
-            android:layout_width="wrap_content"
+            android:id="@+id/contrasena"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:backgroundTint="#FAFAFA"
             android:ems="10"
             android:textColorHint="@color/black"
@@ -90,7 +88,7 @@
         android:background="#B17777"
         android:orientation="horizontal">
 
-        <TextView
+        <EditText
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
